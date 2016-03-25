@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quotes Rewritten</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Random Quotes Rewritten</h1>
+
+  <div class="row">
+
+    <div class="col-md-4 col-md-offset-4">
+      <p class="paragraphClass">This page shows randomized quotes collected from <a class="link" target="_blank" href="http://www.forismatic.com/en/">Forismatic.com</a>. I hope you enjoy them!</p>
+    </div>
+
+    <div class="col-md-4 col-md-offset-4">
+      <button id="newQuoteButton">New Quote</button>
+    </div>
+
+    <div class="col-md-4 col-md-offset-4">
+      <div id="quoteBox">
+        <p id="quoteBoxText">Waiting...</p>
+        <p id="quoteBoxAuthor"></p>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-md-offset-4">
+      <a id="twitterShareLink" target="_blank" href="#">
+        <button id="tweetButton"><i id="twitterIcon" class="fa fa-twitter"></i>Tweet</button>
+      </a>
+    </div>
+
+  </div>
+  
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

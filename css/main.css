@@ -13,7 +13,6 @@ h1 {
 p {
   font-family: Times, serif;
   font-size: 22.5px;
-  text-align: left;
 }
 
 button {
@@ -38,8 +37,6 @@ button {
 
 #quoteBox {
   margin-top: 30px;
-  margin-right: 20px;
-  margin-left: 20px;
   border-radius: 20px;
   border-width: 1px;
   -webkit-box-shadow: -10px 10px 20px 3px rgba(0, 0, 0, 0.75);
@@ -65,7 +62,6 @@ button {
 
 #quoteBoxAuthor {
   font-style: italic;
-  text-align: center;
 }
 
 #tweetButton {
@@ -94,8 +90,4 @@ button {
 .link:hover, .link:focus {
   color: #85274e;
   text-decoration: none;
-}
-
-.paragraphClass {
-  margin-left: 20px;
 }

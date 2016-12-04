@@ -6,7 +6,6 @@ function quote(text, author) {
 };
 
 function showRandomQuote() {
-
   $.ajax({
     url: "http://api.forismatic.com/api/1.0/",
     data: {
@@ -20,7 +19,6 @@ function showRandomQuote() {
       var randomQuote = new quote(data.quoteText, data.quoteAuthor);
       $("#quoteBoxText").text(randomQuote.text);
       $("#quoteBoxAuthor").text(randomQuote.author);
-
     },
   });
 }
